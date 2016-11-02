@@ -1,5 +1,5 @@
 //SETS FUNCTION brain() TO A TIMER
-var brainTimer = setInterval(brain, 1000/20);
+var brainTimer = setInterval(brain, 1000/1);
 
 function brain(){
   
