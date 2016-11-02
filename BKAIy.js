@@ -5,10 +5,10 @@ function brain(){
   
   //CYCLES THROUGH ALL NEURONS
   for(var i=1;i<neurons.length;i++){
+    var stateWeight = 0;
     
     //CHECKS TO SEE IF NEURON ISN'T RESERVED FOR INPUT (I.E. HAS CONNECTIONS)
     if(neurons[i].con != undefined){
-      var stateWeight = 0;
       
       //FINDS WEIGHT OF ALL ACTIVATED NEURONS CONNECTED TO CURRENT NEURON
       for(var a=0;a<neurons[i].con;a++){
