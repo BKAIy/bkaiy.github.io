@@ -27,5 +27,7 @@ function brain(){
     
   }
   
+  //LOGS CURRENT STATE OF NEURONS
+  console.log(neurons);
 };
 //END FUNCTION brain()
