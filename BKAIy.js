@@ -11,7 +11,7 @@ function brain(){
     if(neurons[i].con != undefined){
       
       //FINDS WEIGHT OF ALL ACTIVATED NEURONS CONNECTED TO CURRENT NEURON
-      for(var a=0;a<neurons[i].con;a++){
+      for(var a=0;a<neurons[i].con.length;a++){
         if(neurons[neurons[i].con[a].index].state == true){
          stateWeight = stateWeight + neurons[i].con[a].weight; 
         }
